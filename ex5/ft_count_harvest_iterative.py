@@ -2,13 +2,8 @@
 
 
 def ft_count_harvest_iterative():
-    """
-    Print each day leading up to the harvest.
+    """Print each day leading up to the harvest."""
 
-    Prompts the user for the number of remaining days and uses
-    a for loop to iterate from day 1 to the final day, printing
-    the progress before declaring it is harvest time.
-    """
     remaining_days = int(input("Days until harvest: "))
 
     # Iterate from 1 up to and including remaining_days

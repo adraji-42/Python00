@@ -2,14 +2,8 @@
 
 
 def ft_seed_inventory(seed_type: str, quantity: int, unit: str):
-    """
-    Display the current inventory of seeds based on their unit type.
+    """Display the current inventory of seeds based on their unit type."""
 
-    Args:
-        seed_type (str): The name of the seed.
-        quantity (int): The amount of seeds.
-        unit (str): The unit of measurement (packets, grams, or area).
-    """
     # Define valid units for checking
     valid_units = ("packets", "grams", "area")
 

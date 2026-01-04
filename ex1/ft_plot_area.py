@@ -2,12 +2,8 @@
 
 
 def ft_plot_area():
-    """
-    Calculate and print the area of a rectangle based on user input.
+    """Calculate and print the area of a rectangle based on user input."""
 
-    The function prompts the user for length and width, converts them
-    to integers, and calculates the area (length * width).
-    """
     length = int(input("Enter length: "))
     width = int(input("Enter width: "))
 
