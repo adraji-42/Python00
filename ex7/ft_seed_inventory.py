@@ -10,13 +10,13 @@ def ft_seed_inventory(seed_type: str, quantity: int, unit: str):
     if unit in valid_units:
         # Determine the appropriate label based on the unit
         if unit == "packets":
-            last_word = unit + " available"
+            inventory_info = f"{quantity} {unit} available"
         elif unit == "grams":
-            last_word = unit + " total"
+            inventory_info = f"{quantity} {unit} total"
         else:
-            last_word = "square meters"
+            inventory_info = f"covers {quantity} square meters"
 
-        print(seed_type.capitalize(), "seeds:", quantity, last_word)
+        print(f"{seed_type.capitalize()} seeds: {inventory_info}")
 
     else:
         print("Unknown unit type")
